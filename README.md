@@ -52,4 +52,17 @@ and MOT20 (MOTA of 70.2%).
 sh experiments/crowdhuman_dla34.sh
 sh experiments/mix_ft_ch_dla34.sh
 ```
+### Test
+* Download the the pre-trained models form [[Baidu, code:2y3a]](https://pan.baidu.com/s/1dyBEeiGpRfZhqae0c264rg).
 
+To get the results of the test set of MOT16 or MOT17, you can run:
+```
+cd src
+python track.py cmot --test_mot17 True --load_model ../models/fairmot_dla34.pth --conf_thres 0.4
+python track.py mot --test_mot16 True --load_model ../models/fairmot_dla34.pth --conf_thres 0.4
+```
+To get the results of the test set of MOT20, you can run:
+```
+cd src
+python track.py mot --test_mot20 True --load_model ../modelsyour_mot20_model.pth --conf_thres 0.3
+```
