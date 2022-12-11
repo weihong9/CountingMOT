@@ -47,6 +47,9 @@ and MOT20 (MOTA of 70.2%).
 ### Training
 * Download the CrowdHuman dataset from the [official webpage](https://www.crowdhuman.org).
 * Download the MIX dataset including Caltech Pedestrian, CityPersons, CUHK-SYSU, PRW, ETHZ, MOT17 and MOT16 (see [JDE](https://github.com/Zhongdao/Towards-Realtime-MOT)). 
-* Training is the same as [**FairMOT**](https://github.com/ifzhang/FairMOT)
-
+* Training is the same as [**FairMOT**](https://github.com/ifzhang/FairMOT), E.g., 
+```
+sh experiments/crowdhuman_dla34.sh
+sh experiments/mix_ft_ch_dla34.sh
+```
 
