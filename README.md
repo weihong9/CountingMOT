@@ -1,5 +1,11 @@
 # CountingMOT
-## CountingMOT: Joint Counting, Detection and Re-Identification for Multiple Object Tracking
+
+A simple baseline for one-shot multi-object tracking:
+![](assets/pipeline.png)
+> [**FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking**](http://arxiv.org/abs/2004.01888),            
+> Weihong Ren, Bowen Chen, Yuhang Shi, Weibo Jiang and Honghai Liu,        
+> 
+## Abstract
 The recent trend in multiple object tracking (MOT)
 is jointly solving detection and tracking, where object detection
 and appearance feature (or motion) are learned simultaneously.
