@@ -53,16 +53,16 @@ sh experiments/crowdhuman_dla34.sh
 sh experiments/mix_ft_ch_dla34.sh
 ```
 ### Test
-* Download the the pre-trained models form [[BaiduDisk, code: gb9h]](https://pan.baidu.com/s/1l_r3Lb-TzpeCwNll3S0yvw?pwd=gb9h).
+* Download the the pre-trained models from [[BaiduDisk, code: gb9h]](https://pan.baidu.com/s/1l_r3Lb-TzpeCwNll3S0yvw?pwd=gb9h) or [[GoogleDrive]](https://drive.google.com/drive/folders/1KxIdLI39oL0a863RM8SRXUf0rJQcRiqA?usp=sharing).
 
 To get the results of the test set of MOT16 or MOT17, you can run:
 ```
 cd src
 python track.py cmot --test_mot17 True --load_model ../models/countingmot_mot17_dla34.pth --conf_thres 0.4
-python track.py mot --test_mot16 True --load_model ../models/countingmot_mot17_dla34.pth --conf_thres 0.4
+python track.py cmot --test_mot16 True --load_model ../models/countingmot_mot17_dla34.pth --conf_thres 0.4
 ```
 To get the results of the test set of MOT20, you can run:
 ```
 cd src
-python track.py mot --test_mot20 True --load_model ../models/countingmot_mot20_dla34.pth --conf_thres 0.3
+python track.py cmot --test_mot20 True --load_model ../models/countingmot_mot20_dla34.pth --conf_thres 0.3
 ```
