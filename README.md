@@ -1,5 +1,5 @@
 # CountingMOT
-## Abstract
+## CountingMOT: Joint Counting, Detection and Re-Identification for Multiple Object Tracking
 The recent trend in multiple object tracking (MOT)
 is jointly solving detection and tracking, where object detection
 and appearance feature (or motion) are learned simultaneously.
