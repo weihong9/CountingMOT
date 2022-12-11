@@ -2,10 +2,10 @@
 
 This work is built on [**FairMOT**](https://github.com/ifzhang/FairMOT), and many thanks to its contributions!  
 
-CountingMOT:Joint Counting, Detection and Re-Identification for Multiple Object Tracking:
-> [**CountingMOT**](http://arxiv.org/abs/2004.01888),            
+CountingMOT: Joint Counting, Detection and Re-Identification for Multiple Object Tracking:
+> [**CountingMOT, arXiv version is available soon!**],            
 > Weihong Ren, Bowen Chen, Yuhang Shi, Weibo Jiang and Honghai Liu,        
-> 
+
 ## Abstract
 The recent trend in multiple object tracking (MOT)
 is jointly solving detection and tracking, where object detection
