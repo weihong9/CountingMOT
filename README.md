@@ -1,6 +1,6 @@
 # CountingMOT
 
-This work is built on [**FairMOT**](http://arxiv.org/abs/2004.01888), and many thanks to its contributions!  
+This work is built on [**FairMOT**](https://github.com/ifzhang/FairMOT), and many thanks to its contributions!  
 
 CountingMOT:Joint Counting, Detection and Re-Identification for Multiple Object Tracking:
 > [**CountingMOT**](http://arxiv.org/abs/2004.01888),            
@@ -37,3 +37,16 @@ and MOT20 (MOTA of 70.2%).
 |MOT20       | 70.2 | 72.4 | 2795 | 62.0% | 12.1% | 12.6 |
 
  All of the results are obtained on the [MOT challenge](https://motchallenge.net) evaluation server under the “private detector” 
+ 
+ ## Installation
+* Clone this repo, and we'll call the directory that you cloned as ${FAIRMOT_ROOT}
+* Install dependencies. We use python 3.7 and pytorch = 1.4.
+* Complie the [**DCNv2**](https://github.com/CharlesShang/DCNv2)
+
+## Training and Test
+### Training
+* Download the CrowdHuman dataset from the [official webpage](https://www.crowdhuman.org).
+* Download the MIX dataset including Caltech Pedestrian, CityPersons, CUHK-SYSU, PRW, ETHZ, MOT17 and MOT16 (see [JDE](https://github.com/Zhongdao/Towards-Realtime-MOT)). 
+* Training is the same as [**FairMOT**](https://github.com/ifzhang/FairMOT)
+
+
