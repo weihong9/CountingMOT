@@ -2,8 +2,8 @@
 
 This work is built on [**FairMOT**](http://arxiv.org/abs/2004.01888), and many thanks to its contributions!  
 
-A simple baseline for one-shot multi-object tracking:
-> [**FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking**](http://arxiv.org/abs/2004.01888),            
+CountingMOT:Joint Counting, Detection and Re-Identification for Multiple Object Tracking:
+> [**CountingMOT**](http://arxiv.org/abs/2004.01888),            
 > Weihong Ren, Bowen Chen, Yuhang Shi, Weibo Jiang and Honghai Liu,        
 > 
 ## Abstract
