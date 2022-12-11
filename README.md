@@ -28,3 +28,12 @@ targets. The proposed MOT tracker can perform online and realtime
 tracking, and achieves the state-of-the-art results on public
 benchmarks MOT16 (MOTA of 77.6), MOT17 (MOTA of 78.0%)
 and MOT20 (MOTA of 70.2%).
+
+## Results on MOT challenge test set
+| Dataset    |  MOTA | IDF1 | IDS | MT | ML | FPS |
+|--------------|-----------|--------|-------|----------|----------|--------|
+|MOT16       | 77.6 | 75.2 | 1074 | 50.7% | 14.8% | 24.9 |
+|MOT17       | 78.0 | 74.8 | 3453 | 49.8% | 15.4% | 24.9 |
+|MOT20       | 70.2 | 72.4 | 2795 | 62.0% | 12.1% | 12.6 |
+
+ All of the results are obtained on the [MOT challenge](https://motchallenge.net) evaluation server under the “private detector” 
