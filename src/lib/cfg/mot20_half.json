@@ -1,0 +1,15 @@
+{
+    "root":"/home/weihong/Research/data",
+    "train":
+    {
+        "mot20":"./data/mot20.half"
+    },
+    "test_emb":
+    {
+        "mot20":"./data/mot20.emb"
+    },
+    "test":
+    {
+        "mot20":"./data/mot20.val"
+    }
+}
