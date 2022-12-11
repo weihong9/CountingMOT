@@ -41,7 +41,7 @@ and MOT20 (MOTA of 70.2%).
  ## Installation
 * Clone this repo, and we'll call the directory that you cloned as ${FAIRMOT_ROOT}
 * Install dependencies. We use python 3.7 and pytorch = 1.4.
-* Complie the [**DCNv2**](https://github.com/CharlesShang/DCNv2)
+* Complie the [**DCNv2**](https://github.com/CharlesShang/DCNv2), and put it in src/lib/models/networks/DCNv2.
 
 ## Training and Test
 ### Training
