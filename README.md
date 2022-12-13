@@ -3,7 +3,7 @@
 This work is built on [**FairMOT**](https://github.com/ifzhang/FairMOT), and many thanks to its contributions!  
 
 CountingMOT: Joint Counting, Detection and Re-Identification for Multiple Object Tracking:
-> [**CountingMOT, arXiv version is available soon!**],            
+> [**CountingMOT, arXiv version!**](http://arxiv.org/abs/2212.05861)        
 > Weihong Ren, Bowen Chen, Yuhang Shi, Weibo Jiang and Honghai Liu,        
 
 ## Abstract
